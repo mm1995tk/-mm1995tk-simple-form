@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@mm1995tk/simple-form':
+    specifier: ^0.1.0
+    version: 0.1.0(@mm1995tk/immutable-record-updater@0.2.9)(jotai@2.4.2)
   '@types/node':
     specifier: 20.6.2
     version: 20.6.2
@@ -102,6 +105,32 @@ packages:
 
   /@humanwhocodes/object-schema@1.2.1:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
+    dev: false
+
+  /@mm1995tk/declarative-validator@0.1.0:
+    resolution: {integrity: sha512-6cJv3PFH5xBMzsFT6g2ugzvA7kDE1Ht2ojvaU06WA3GWoctUJ2Nqkp5O6QXKgFc6zXqiNllH4Dmz4BGJY89aLw==}
+    engines: {node: '>=18.12'}
+    dev: false
+
+  /@mm1995tk/immutable-record-updater@0.2.9(react@18.2.0):
+    resolution: {integrity: sha512-wcbtTCq1Ozl2dkJBlXQF2Tvg1R/IphL39DfzfqeqT3Pi2RhCDpXHkdkBI1FT9KMB1erqY7sj19NUNrLlNBnakg==}
+    engines: {node: '>=18.12'}
+    dependencies:
+      react-hook-form: 7.46.1(react@18.2.0)
+    transitivePeerDependencies:
+      - react
+    dev: false
+
+  /@mm1995tk/simple-form@0.1.0(@mm1995tk/immutable-record-updater@0.2.9)(jotai@2.4.2):
+    resolution: {integrity: sha512-c/l0WJrl9RqZYnbCD/YBkG5VO5xI21zQVlxYaIzF81Y2ceITjNOayU4enkEDtsK01LvW1wHVOwrfY1RsYRmQEQ==}
+    peerDependencies:
+      '@mm1995tk/immutable-record-updater': ^0.2.9
+      jotai: ^2.4.2
+    dependencies:
+      '@mm1995tk/declarative-validator': 0.1.0
+      '@mm1995tk/immutable-record-updater': 0.2.9(react@18.2.0)
+      jotai: 2.4.2(@types/react@18.2.21)(react@18.2.0)
+      ulidx: 2.1.0
     dev: false
 
   /@next/env@13.4.19:
@@ -1446,6 +1475,22 @@ packages:
       set-function-name: 2.0.1
     dev: false
 
+  /jotai@2.4.2(@types/react@18.2.21)(react@18.2.0):
+    resolution: {integrity: sha512-90jXVOd9h6gi5JXk558M+wnJfaaVN2WegcNOCfiFbWboNaDl6DkRgiY/K1oeqTfYJmq8yM7XPsL99LAvcOPqhw==}
+    engines: {node: '>=12.20.0'}
+    peerDependencies:
+      '@types/react': '>=17.0.0'
+      react: '>=17.0.0'
+    peerDependenciesMeta:
+      '@types/react':
+        optional: true
+      react:
+        optional: true
+    dependencies:
+      '@types/react': 18.2.21
+      react: 18.2.0
+    dev: false
+
   /js-tokens@4.0.0:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
     dev: false
@@ -1500,6 +1545,10 @@ packages:
     resolution: {integrity: sha512-qJhlO9cGXi6hBGKoxEG/sKZDAHD5Hnu9Hs4WbOY3pCWXDhw0N8x1NenNzm2EnNLkLkk7J2SdxAkDSbb6ftT+UQ==}
     dependencies:
       language-subtag-registry: 0.3.22
+    dev: false
+
+  /layerr@2.0.1:
+    resolution: {integrity: sha512-z0730CwG/JO24evdORnyDkwG1Q7b7mF2Tp1qRQ0YvrMMARbt1DFG694SOv439Gm7hYKolyZyaB49YIrYIfZBdg==}
     dev: false
 
   /levn@0.4.1:
@@ -1794,6 +1843,15 @@ packages:
       loose-envify: 1.4.0
       react: 18.2.0
       scheduler: 0.23.0
+    dev: false
+
+  /react-hook-form@7.46.1(react@18.2.0):
+    resolution: {integrity: sha512-0GfI31LRTBd5tqbXMGXT1Rdsv3rnvy0FjEk8Gn9/4tp6+s77T7DPZuGEpBRXOauL+NhyGT5iaXzdIM2R6F/E+w==}
+    engines: {node: '>=12.22.0'}
+    peerDependencies:
+      react: ^16.8.0 || ^17 || ^18
+    dependencies:
+      react: 18.2.0
     dev: false
 
   /react-is@16.13.1:
@@ -2135,6 +2193,13 @@ packages:
     resolution: {integrity: sha512-mI4WrpHsbCIcwT9cF4FZvr80QUeKvsUsUvKDoR+X/7XHQH98xYD8YHZg7ANtz2GtZt/CBq2QJ0thkGJMHfqc1w==}
     engines: {node: '>=14.17'}
     hasBin: true
+    dev: false
+
+  /ulidx@2.1.0:
+    resolution: {integrity: sha512-DlMi97oP9HASI3kLCjBlOhAG1SoisUrEqC2PJ7itiFbq9q5Zo0JejupXeu2Gke99W62epNzA4MFNToNiq8A5LA==}
+    engines: {node: '>=16'}
+    dependencies:
+      layerr: 2.0.1
     dev: false
 
   /unbox-primitive@1.0.2:
