@@ -5,6 +5,19 @@
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "repository": "mm1995tk/simple-form",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "@mm1995tk",
+  "license": "MIT",
+  "keywords": [
+    "jotai",
+    "form"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vite build",
