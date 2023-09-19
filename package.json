@@ -28,6 +28,7 @@
   },
   "devDependencies": {
     "@mm1995tk/immutable-record-updater": "^0.2.9",
+    "@testing-library/react": "^14.0.0",
     "@types/node": "^20.6.2",
     "@types/react": "^18.2.21",
     "@types/react-dom": "^18.2.7",
@@ -38,6 +39,9 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
     "jotai": "^2.4.2",
+    "jsdom": "^22.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-hook-form": "^7.46.1",
     "typescript": "^5.2.2",
     "vite": "^4.4.9",
