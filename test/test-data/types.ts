@@ -1,4 +1,4 @@
-import { Validate, ValidatorMap } from '../src';
+import { Validate, ValidatorMap } from '../../src';
 
 export type UserForm = {
   name: string;
