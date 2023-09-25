@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "@mm1995tk/immutable-record-updater": "^0.2.9",
-    "@types/node": "^20.6.2",
+    "@types/node": "^20.6.5",
     "@types/react": "^18.2.22",
     "@types/react-dom": "^18.2.7",
     "@typescript-eslint/eslint-plugin": "^6.7.2",
