@@ -65,8 +65,8 @@ devDependencies:
     specifier: ^18.2.0
     version: 18.2.0(react@18.2.0)
   react-hook-form:
-    specifier: ^7.46.1
-    version: 7.46.1(react@18.2.0)
+    specifier: ^7.47.0
+    version: 7.47.0(react@18.2.0)
   typescript:
     specifier: ^5.2.2
     version: 5.2.2
@@ -671,7 +671,7 @@ packages:
     resolution: {integrity: sha512-wcbtTCq1Ozl2dkJBlXQF2Tvg1R/IphL39DfzfqeqT3Pi2RhCDpXHkdkBI1FT9KMB1erqY7sj19NUNrLlNBnakg==}
     engines: {node: '>=18.12'}
     dependencies:
-      react-hook-form: 7.46.1(react@18.2.0)
+      react-hook-form: 7.47.0(react@18.2.0)
     transitivePeerDependencies:
       - react
     dev: true
@@ -2704,8 +2704,8 @@ packages:
       scheduler: 0.23.0
     dev: true
 
-  /react-hook-form@7.46.1(react@18.2.0):
-    resolution: {integrity: sha512-0GfI31LRTBd5tqbXMGXT1Rdsv3rnvy0FjEk8Gn9/4tp6+s77T7DPZuGEpBRXOauL+NhyGT5iaXzdIM2R6F/E+w==}
+  /react-hook-form@7.47.0(react@18.2.0):
+    resolution: {integrity: sha512-F/TroLjTICipmHeFlMrLtNLceO2xr1jU3CyiNla5zdwsGUGu2UOxxR4UyJgLlhMwLW/Wzp4cpJ7CPfgJIeKdSg==}
     engines: {node: '>=12.22.0'}
     peerDependencies:
       react: ^16.8.0 || ^17 || ^18
