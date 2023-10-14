@@ -1,9 +1,9 @@
 import { describe, test } from 'vitest';
-import { initSimpleForm } from '../src';
-import { emptyUser } from './test-data/domain';
+import { initSimpleForm } from '../../src';
+import { emptyUser } from '../test-data/domain';
 import { render } from '@testing-library/react';
-import { UserForm } from './test-data/types';
-import TestProvider from './provider';
+import { UserForm } from '../test-data/types';
+import TestProvider from '../provider';
 
 const createSimpleForm = initSimpleForm('danger', 'warning', 'info');
 const { useSimpleForm, useHydrateForm } = createSimpleForm(emptyUser);
