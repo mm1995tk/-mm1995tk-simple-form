@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "@mm1995tk/declarative-validator": "^0.1.0",
-    "ulidx": "^2.1.0"
+    "ulidx": "^2.2.1"
   },
   "devDependencies": {
     "@mm1995tk/immutable-record-updater": "^0.2.9",

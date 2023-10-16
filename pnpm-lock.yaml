@@ -9,8 +9,8 @@ dependencies:
     specifier: ^0.1.0
     version: 0.1.0
   ulidx:
-    specifier: ^2.1.0
-    version: 2.1.0
+    specifier: ^2.2.1
+    version: 2.2.1
 
 devDependencies:
   '@mm1995tk/immutable-record-updater':
@@ -3088,8 +3088,8 @@ packages:
     resolution: {integrity: sha512-bRn3CsoojyNStCZe0BG0Mt4Nr/4KF+rhFlnNXybgqt5pXHNFRlqinSoQaTrGyzE4X8aHplSb+TorH+COin9Yxw==}
     dev: true
 
-  /ulidx@2.1.0:
-    resolution: {integrity: sha512-DlMi97oP9HASI3kLCjBlOhAG1SoisUrEqC2PJ7itiFbq9q5Zo0JejupXeu2Gke99W62epNzA4MFNToNiq8A5LA==}
+  /ulidx@2.2.1:
+    resolution: {integrity: sha512-DU9F5t1tihdafuNyW3fIrXUFHHiHxmwuQSGVGIbSpqkc93IH4P0dU8nPhk0gOW7ARxaFu4+P/9cxVwn6PdnIaQ==}
     engines: {node: '>=16'}
     dependencies:
       layerr: 2.0.1
