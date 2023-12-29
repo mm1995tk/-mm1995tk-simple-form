@@ -40,7 +40,7 @@
     "eslint": "^8.51.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
-    "jotai": "^2.4.2",
+    "jotai": "^2.6.1",
     "jsdom": "^22.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -52,6 +52,6 @@
   },
   "peerDependencies": {
     "@mm1995tk/immutable-record-updater": "^0.2.9",
-    "jotai": "^2.4.2"
+    "jotai": "^2.6.1"
   }
 }
